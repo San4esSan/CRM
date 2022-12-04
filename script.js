@@ -6,3 +6,4 @@ const category = 'телевизор';
 let price = 1500;
 
 console.log(nameProduct);
+console.log(price * quantityGoods);
