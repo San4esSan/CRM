@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="script.js"></script>
+    <script defer src="einstein.js"></script>
+</head>
+<body>
+    <section class="modal">
+        <div class="container">
+            <h1 class="modal__title">Добавить товар</h1>
+            <form class="form" method="post">
+                <label class="form__subtitle">Наименование
+                    <input class="form__name" type="text" name="name" required>
+                </label>
+
+                <label class="form__subtitle">Категория
+                    <input class="form__category" type="text" name="category" required>
+                </label>
+
+                <label class="form__subtitle">Единицы измерения
+                    <input class="form__units" type="text" name="units" required>
+                </label>
+
+                <label class="form__subtitle form__label form__subtitle-discount checkbox">Дисконт
+                    <input class="form__units-check" type="checkbox">
+                </label>
+
+                <input class="form__discount form__discount-disabled" type="text" name="discount" disabled>
+
+                <label class="form__subtitle">Описание
+                    <input class="form__description" type="text" name="description" required>
+                </label>
+
+                <label class="form__subtitle">Количество
+                    <input class="form__quantity" type="number" name="quantity" required>
+                </label>
+
+                <label class="form__subtitle">Цена
+                    <input class="form__price" type="number" name="price" required>
+                </label>
+            </form>
+            <button class="form__button" type="submit">Добавить товар</button>
+        </div>
+    </section>
+</body>
+</html>
