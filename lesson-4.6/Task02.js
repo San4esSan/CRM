@@ -9,8 +9,7 @@ const getAverageValue = () => {
     }
 
     const res = Math.floor(sum / allCashbox.length)
-    return res
+    return console.log(res);
 }
 
-console.log(getAverageValue(allCashbox));
-
+getAverageValue(allCashbox)
