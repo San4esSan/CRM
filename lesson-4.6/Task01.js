@@ -3,7 +3,7 @@
 const allStudents = ['Иванов','Петров','Сидоров','Кузнецов','Смирнов','Попов','Соколов'];
 const failedStudents = ['Сидоров','Смирнов','Попов'];
 
-const filter = () => {
+const filter = (allStudents, failedStudents) => {
     const res = allStudents.filter(item => !failedStudents.includes(item))
     return console.log(res)
 }
