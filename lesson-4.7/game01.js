@@ -25,4 +25,4 @@ const numNum = (n, m) => {
         }
     }
 }
-numNum(0, 10)
+numNum(0, 100)
