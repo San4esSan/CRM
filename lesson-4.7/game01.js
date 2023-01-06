@@ -2,7 +2,7 @@
 const numNum = (n, m) => {
 
     const randomNumber = Math.floor(m * Math.random()) + 1
-
+    console.log(randomNumber);
     while (true) {
         let userNumber = prompt(`Угадай число от ${n} до ${m}`);
 
