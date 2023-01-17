@@ -75,3 +75,9 @@ iframe {
     padding: 0 30px;
     margin: 0 auto;
 }
+
+.container-tab {
+    max-width: 1160px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
