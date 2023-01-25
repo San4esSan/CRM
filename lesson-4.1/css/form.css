@@ -259,6 +259,10 @@ body {
     cursor: pointer;
 }
 
+/*.form__modal.active {*/
+/*    display: flex;*/
+/*}*/
+
 @media (max-width: 660px) {
     .form {
         flex-wrap: wrap;
