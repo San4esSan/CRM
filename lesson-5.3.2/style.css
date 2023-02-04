@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #000;
+    mso-element-frame-hspace: 12px;
+    padding: 10px;
+}
+
