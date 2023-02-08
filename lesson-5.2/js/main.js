@@ -8,4 +8,3 @@ const formUnitsCheck = document.querySelector('.form__units-check');
 const formDiscount = document.querySelector('.form__discount');
 const formPrice = document.querySelector('.form__price-text');
 
-console.log(form)

@@ -70,9 +70,9 @@ iframe {
 Чтобы контент не прижимался к краям экрана
 */
 
-.container {
+.container-form {
     max-width: 640px;
-    padding: 0 30px;
+    padding: 1px 30px;
     margin: 0 auto;
 }
 
