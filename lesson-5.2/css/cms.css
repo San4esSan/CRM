@@ -154,11 +154,13 @@ td {
     color: #25213B;
 }
 
-.td-center {
+.td-unit,
+.td-amount {
     text-align: center;
 }
 
-.td-right {
+.td-price,
+.td-total {
     text-align: right;
 }
 
