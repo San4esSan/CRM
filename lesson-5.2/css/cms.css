@@ -25,14 +25,14 @@
     color: #6E6893;
 }
 
-.cms__title-price {
+.cms__title--total-price {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #6E6893;
 }
 
-.cms__title-price span {
+.cms__title--total-price span {
     font-weight: 700;
     font-size: 16px;
     color: #6D5BD0;
@@ -164,11 +164,31 @@ td {
     text-align: right;
 }
 
-.td-btn {
+.btn-img {
+    background-image: url(../img/img.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    width: 19px;
+    height: 18px;
     border: none;
-    background: #fff;
-    height: 17px;
-    width: 17px;
+}
+
+.btn-edit {
+    background-image: url(../img/edit.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    width: 18px;
+    height: 19px;
+    border: none;
+}
+
+.btn-del {
+    background-image: url(../img/del.svg);
+    background-repeat: no-repeat;
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+    border: none;
 }
 
 .table__footer {
