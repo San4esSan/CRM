@@ -24,22 +24,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(../img/close.svg);
+    background-color: transparent;
 }
-
-/*.modal:before,*/
-/*.form__error:before {*/
-/*    position: absolute;*/
-/*    content: "";*/
-/*    background-image: url(../img/close.svg);*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    top: 20px;*/
-/*    right: 30px;*/
-/*    width: 20px;*/
-/*    height: 20px;*/
-/*    color: #6E6893;*/
-/*    cursor: pointer;*/
-/*}*/
 
 .modal__title-block {
     display: flex;
@@ -119,10 +105,13 @@ body {
 .form__discount {
     width: 200px;
     margin-left: 50px;
+    background: #F4F2FF;
+    border: 3px solid #0698dc;
 }
 
 .form__discount-disabled {
     background: #EEEEEE;
+    border: none;
 }
 
 .form__description {
